@@ -74,7 +74,7 @@ const AddressForm = ({checkoutToken,next}) => {
                        <FormInput required name="email" label="Email" />
                        <FormInput required name="city" label="City" />
                        <FormInput required name="zip" label="Zip / Postal code" />
-                       <Grid item xs={12} sm={6}>
+                       {/*<Grid item xs={12} sm={6}>
                             <InputLabel>Shipping Country</InputLabel>
                             <Select value={shippingCountry} fullWidth onChange={(e) => setShippingCountry(e.target.value)}>      
                                 {countries.map((country)=>(
@@ -100,7 +100,7 @@ const AddressForm = ({checkoutToken,next}) => {
                                 </MenuItem>
                                 ))}
                             </Select>
-                        </Grid>
+                        </Grid>*/}
                    </Grid>
                     <br />
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
